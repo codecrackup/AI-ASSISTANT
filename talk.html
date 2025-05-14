@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Voice Recognition</title>
+</head>
+<body>
+  <h2>Listening...</h2>
+  <p id="output">Say something...</p>
+
+  <script>
+    const output = document.getElementById("output");
+    let recognition;
+
+    function startRecognition() {
+      recognition = new webkitSpeechRecognition();
+      recognition.continuous = false;
+      recognition.interimResults = false;
+      recognition.lang = 'en-US';
+
+      recognition.onstart = () => {
+        console.log("Recognition started");
+      };
+
+      recognition.onresult = (event) => {
+        const transcript = event.results[0][0].transcript.trim();
+        output.innerText = transcript;
+        console.log("Final result:", transcript);
+      };
+
+      recognition.onerror = (event) => {
+        console.error("Error:", event.error);
+        output.innerText = '';
+      };
+
+      recognition.onend = () => {
+        setTimeout(() => startRecognition(), 300);  // Restart after 300ms
+      };
+
+      recognition.start();
+    }
+
+    startRecognition(); // Start immediately
+  </script>
+</body>
+</html>

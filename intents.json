@@ -1,0 +1,283 @@
+{
+    "intents": [
+      {
+        "intent": "greet",
+        "examples": [
+          "Hello", "Hi", "Hey", "Good morning", "Good evening", "What's up?", "Howdy", "Greetings", "How are you"
+        ],
+        "responses": [
+          "Hello there!",
+          "Hi! How can I help you today?",
+          "Hey! What can I do for you?",
+          "Good to see you!"
+        ]
+      },
+      {
+        "intent": "goodbye",
+        "examples": [
+          "Bye", "Goodbye", "See you later", "Catch you later", "Farewell", "Talk to you soon"
+        ],
+        "responses": [
+          "Goodbye! Take care.",
+          "See you soon!",
+          "Bye! Have a great day!",
+          "Farewell!"
+        ]
+      },
+      {
+        "intent": "thanks",
+        "examples": [
+          "Thank you", "Thanks", "Much appreciated", "Thanks a lot", "Thank you very much"
+        ],
+        "responses": [
+          "You're welcome!",
+          "No problem!",
+          "Happy to help!",
+          "Anytime!"
+        ]
+      },
+      {
+        "intent": "play_music",
+        "examples": [
+          "Play some music", "Start my playlist", "Play rock songs", "I want to listen to jazz", "Play my favorite tunes"
+        ],
+        "responses": [
+          "Sure! Playing your music now.",
+          "Starting your playlist.",
+          "Let’s enjoy some tunes!",
+          "Here comes the music!"
+        ]
+      },
+      {
+        "intent": "weather",
+        "examples": [
+          "What's the weather like?", "Tell me the weather forecast", "Is it going to rain today?", "Weather update, please", "Do I need an umbrella today?"
+        ],
+        "responses": [
+          "Let me get the latest forecast.",
+          "Here’s the current weather update."
+        ]
+      },
+      {
+        "intent": "set_alarm",
+        "examples": [
+          "Set an alarm for 7 AM", "Wake me up at 6:30", "Alarm for tomorrow morning", "I need an alarm at 5 AM", "Set a reminder to wake up at 8"
+        ],
+        "responses": [
+          "Alarm set!",
+          "Your alarm is ready.",
+          "Got it. I’ll wake you up at the right time."
+        ]
+      },
+      {
+        "intent": "bot_identity",
+        "examples": [
+          "What’s your name?", "Who are you?", "Do you have a name?", "Tell me about yourself", "What's your identity?", "Are you a robot?", "What should I call you?", "Introduce yourself", "Do you have a personality?", "What are you?"
+        ],
+        "responses": [
+          "I'm your virtual assistant. You can call me {bot_name}.",
+          "I’m {bot_name}, your AI-powered assistant.",
+          "My name is {bot_name}. I'm here to help you.",
+          "You can think of me as your personal digital assistant, {bot_name}.",
+          "I go by the name {bot_name}. What can I do for you today?",
+          "Hey, I’m {bot_name}! How can I assist you?",
+          "Hello! I'm {bot_name}, your friendly assistant.",
+          "You can call me {bot_name} ready to help!",
+          "I'm {bot_name}! Your personal assistant at your service.",
+          "That's right, I'm {bot_name}, your digital assistant. How can I help?"
+        ]
+      },
+      {
+        "intent": "news",
+        "examples": [
+          "What's the latest news?", "Tell me today's headlines", "Any news updates?", "What's happening around the world?", "Give me the news briefing"
+        ],
+        "responses": [
+          "Let me get the current news for you.",
+          "Here are the latest headlines."
+        ]
+      },
+      {
+        "intent": "joke",
+        "examples": [
+          "Tell me a joke", "Make me laugh", "I want to hear something funny", "Do you know any jokes?", "Cheer me up with a joke"
+        ],
+        "responses": [
+          "Sure, here's a joke for you!",
+          "Get ready to laugh...",
+          "Here's something funny!"
+        ]
+      },
+      {
+        "intent": "time",
+        "examples": [
+          "What time is it?", "Tell me the current time", "Do you know the time?", "What's the time now?", "Can you give me the time?"
+        ],
+        "responses": [
+          "Let me tell you the current time..."
+        ]
+      },
+      {
+        "intent": "date",
+        "examples": [
+          "What's the date today?", "Tell me today's date", "What's the current date?", "Do you know the date?", "Give me today's date"
+        ],
+        "responses": [
+          "Today’s date is...",
+          "Here is the current date:"
+        ]
+      },
+      {
+        "intent": "calculator_add",
+        "examples": [
+          "What is 5 plus 3?", "Calculate 10 + 15", "Add 7 and 8", "What's the sum of 12 and 13?", "Can you add 20 and 30?"
+        ],
+        "responses": [
+          "The result is:"
+        ]
+      },
+      {
+        "intent": "calculator_subtract",
+        "examples": [
+          "What is 10 minus 4?", "Calculate 15 - 5", "Subtract 8 from 20", "What's 100 minus 25?", "Can you subtract 50 and 30?"
+        ],
+        "responses": [
+          "Here's the answer:"
+        ]
+      },
+      {
+        "intent": "calculator_multiply",
+        "examples": [
+          "What is 6 times 7?", "Calculate 9 * 8", "Multiply 4 and 5", "What's the product of 3 and 12?", "Can you multiply 7 by 6?"
+        ],
+        "responses": [
+          "Here's the product:"
+        ]
+      },
+      {
+        "intent": "calculator_divide",
+        "examples": [
+          "What is 20 divided by 4?", "Calculate 100 / 5", "Divide 50 by 10", "What's 81 divided by 9?", "Can you divide 60 by 3?"
+        ],
+        "responses": [
+          "Here’s your answer:"
+        ]
+      },
+      {
+        "intent": "set_timer",
+        "examples": [
+          "Set a timer for 10 minutes", "Start a 5-minute timer", "I need a timer for 30 seconds", "Set a countdown for 2 hours", "Begin a timer for 15 minutes"
+        ],
+        "responses": [
+          "Timer started!",
+          "Countdown initiated.",
+          "Setting your timer..."
+        ]
+      },
+      {
+        "intent": "reminder",
+        "examples": [
+          "Remind me to call mom at 6 PM", "Set a reminder to buy groceries", "I need to remember my meeting at 3", "Remind me to water the plants", "Set a reminder for my doctor's appointment"
+        ],
+        "responses": [
+          "Reminder set!",
+          "I’ll make sure to remind you.",
+          "Got it. I won’t let you forget."
+        ]
+      },
+      {
+        "intent": "translate",
+        "examples": [
+          "Translate 'hello' to Spanish", "How do you say 'thank you' in French?", "What's 'good night' in German?", "Translate 'I love you' to Italian", "How to say 'friend' in Japanese?"
+        ],
+        "responses": [
+          "Here’s how you say it:"
+        ]
+      },
+      {
+        "intent": "define_word",
+        "examples": [
+          "Define 'serendipity'", "What does 'ephemeral' mean?", "Meaning of 'ubiquitous'", "Explain the word 'ambiguous'", "What's the definition of 'catalyst'?"
+        ],
+        "responses": [
+          "Here's the definition:"
+        ]
+      },
+      {
+        "intent": "currency_conversion",
+        "examples": [
+          "Convert 100 USD to EUR", "What's 50 pounds in dollars?", "How much is 200 yen in rupees?", "Exchange rate from CAD to AUD", "Convert 300 euros to INR"
+        ],
+        "responses": [
+          "Here’s the converted amount:"
+        ]
+      },
+      {
+        "intent": "unit_conversion",
+        "examples": [
+          "Convert 10 kilometers to miles", "What's 5 pounds in kilograms?", "How many inches are in 2 meters?", "Convert 100 Celsius to Fahrenheit", "Change 3 liters to gallons"
+        ],
+        "responses": [
+          "Here’s the result:"
+        ]
+      },
+      {
+        "intent": "location",
+        "examples": [
+          "Where am I?", "What's my current location?", "Show me where I am", "Locate me on the map", "Tell me my GPS coordinates"
+        ],
+        "responses": [
+          "Here’s your current location:"
+        ]
+      },
+      {
+        "intent": "directions",
+        "examples": [
+          "How do I get to the nearest gas station?", "Directions to the airport", "Guide me to the city center", "Navigate to the closest hospital", "Show me the way to the train station"
+        ],
+        "responses": [
+          "Here are the directions."
+        ]
+      },
+      {
+        "intent": "restaurant_search",
+        "examples": [
+          "Find nearby Italian restaurants", "Show me Chinese food places", "Any good sushi spots around?", "Locate vegetarian restaurants near me", "Best pizza places nearby"
+        ],
+        "responses": [
+          "Here are some options around you."
+        ]
+      },
+      {
+        "intent": "movie_info",
+        "examples": [
+          "Tell me about the movie 'Inception'", "What's the plot of 'The Matrix'?", "Who stars in 'Titanic'?", "Give me details about 'Avengers: Endgame'", "When was 'The Godfather' released?"
+        ],
+        "responses": [
+          "Here’s some information about that movie."
+        ]
+      },
+      {
+        "intent": "real_time_search",
+        "examples": [
+          "Search for the latest iPhone news",
+          "What’s trending on the internet now?",
+          "Find current events about the stock market",
+          "Tell me what's happening in tech today",
+          "Search Google for Taylor Swift’s latest concert",
+          "Look up recent news about climate change",
+          "What are the latest movie releases?",
+          "Show me the top headlines right now",
+          "Find the latest football transfer news",
+          "Get current information on the Mars mission"
+        ],
+        "responses": [
+          "Let me look that up for you.",
+          "Here’s what I found online.",
+          "Fetching the latest information...",
+          "Searching real-time data for you."
+        ]
+      }
+    ]
+  }
+  
