@@ -1,0 +1,4 @@
+selenium
+pywin32
+webdriver_manager
+regex
